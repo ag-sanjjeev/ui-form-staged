@@ -1,0 +1,44 @@
+/*
+  ______________________________________________________________________________________________
+ |                                                                                              |
+ |  Copyright 2024 ag-sanjjeev                                                                  |
+ |                                                                                              |
+ |  The source code is licensed under MIT-style License.                                        |
+ |  The usage, permission and condition are applicable to this source code as per license.      |
+ |  That can be found in LICENSE file or at https://opensource.org/licenses/MIT.                |
+ |______________________________________________________________________________________________|
+
+*/
+/* Progress Bar Style */
+.progress {
+	height: 1px;	
+}
+
+.staged-label {
+	width: 2.5rem;
+	aspect-ratio: 1;
+}
+
+.staged-label.btn-outline-primary {
+	background: var(--bs-white);
+}
+
+.staged-label.btn-outline-primary:hover {
+	background: var(--bs-primary);
+}
+
+label.gender-label {
+	width: 6rem;
+  aspect-ratio: 1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+
+input.gender:checked + label.gender-label {
+	background: var(--bs-primary);
+	color: var(--bs-white);
+}
